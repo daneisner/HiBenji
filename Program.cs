@@ -25,7 +25,7 @@ namespace HiBenji
                     Console.Clear();
                 }
                 catch (Exception e)
-                { }
+                { Console.WriteLine("mistake"); }
             } while (response.Substring(0, 1) == "y");
             
         }
